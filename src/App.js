@@ -1,11 +1,13 @@
 import React from "react";
 import Layout from "./components/Layout";
 
+import Login from "./components/Login";
+
 function App() {
 
 	return (
 		<Layout>
-			<h1>Storybook</h1>
+			<Login></Login>
 		</Layout>
 
 	);
